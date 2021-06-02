@@ -1,0 +1,56 @@
+body{
+    background:url("../images/quality.jpg") no-repeat center fixed;
+    background-size:cover;;
+    opacity:80%;
+}
+.main{
+    text-shadow: 4px 4px hotpink;
+    text-align:center;
+    color:white;
+    font-size: 70px;
+    font-weight:bold;
+}
+.box{
+    display:none;
+    font-size:50px;
+    text-align:center;
+    background-color: pink;
+    color:purple;
+    /* border:5px solid green; */
+}
+@media (max-width:300px){
+    #box1{
+        display:block;
+        background-color: lightseagreen;
+    }
+}
+@media(min-width:300px) and (max-width:500px){
+    #box2{
+        display:block;
+        background-color: red;
+    }
+}
+@media(min-width:500px) and (max-width:800px){
+    #box3{
+        display:block;
+        background-color:blue;
+    }
+}
+.btn{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    padding:10px 20px;
+    width:300px;
+    font-size:25px;
+    font-weight: bold;
+    border:5px solid blue;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color:red;
+    margin:400px 50px;
+}
+.btn:hover{
+    color:purple;
+    background-color:rgb(138, 146, 172);
+}

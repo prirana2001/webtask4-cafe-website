@@ -1,0 +1,86 @@
+
+*{
+    margin:10px 3px;
+    padding:0px;
+}
+    body{
+    background:url("../images/back.jpg") no-repeat center fixed;
+    background-size:cover;
+}
+.main{
+    text-shadow: 2px 2px yellow;
+    font-size:50px;
+    color:orange;
+    font-weight:bold;
+    text-align:center;
+}
+.primary{
+    text-shadow: 2px 2px rgb(233, 142, 218);
+    color:yellow;
+    justify-content: center;
+    font-size:3rem;
+}
+.btn{
+    display:block;
+    width:200px;
+    margin:5px 50px;
+    background-color: rgb(158, 206, 114);
+    color:black;
+    border:4px purple;
+    border-radius: 10px;
+}
+.btn:hover{
+    color:blue;
+    background-color:pink;
+}
+.secondary{
+    color:white;
+    font-size:1.5rem;
+}
+/* .cake-container{
+    position:relative;
+    float:left;
+    display:grid;
+    grid-template-columns: 370px 370px 370px;
+} */
+ #cakes{    
+     flex-wrap:wrap;
+    display:flex;
+    margin:30px;
+}
+#cakes .cake{
+    box-shadow:3px 3px yellow ;
+    border:6px solid green;
+    border-radius:15px;
+    text-align:center;
+    margin:10px; 
+} 
+#cakes .cake img{
+    height:180px;
+    width:300px;
+    margin:auto;
+    display:block;
+}
+/* .beverage-container{
+    float:right;
+    grid-template-columns: 370px 370px 370px;
+} */
+ #beverages{  
+     flex-wrap:wrap;
+    margin:30px;
+    display:flex;
+} 
+#beverages .beverage{
+    box-shadow: 3px 3px yellow;
+    border:6px solid rgb(96, 163, 207);
+    border-radius:15px;
+    text-align:center;
+    margin:10px;
+}
+#beverages .beverage img{
+
+    height:180px;
+    width:300px;
+    margin:auto;
+    display:block;
+}
